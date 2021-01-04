@@ -32,7 +32,7 @@ public class Testcase_34 extends setUtility {
 			driver.findElement(By.xpath("//input[@id='lastName']")).sendKeys("Abcd");
 			driver.findElement(By.xpath("//input[@value='Save All']")).click();
 			driver.switchTo().defaultContent();
-			System.out.println("Test Pass :Lastname is updated in AboutTab");
+			System.out.println("Test Pass :Lastname is updated to Abcd");
 	}
 
 }
